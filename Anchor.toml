@@ -1,0 +1,19 @@
+[toolchain]
+
+[features]
+resolution = true
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+nft_reward_program = "9Ryw6tg3iqEEjpiXYEekgXBANrdo797XnBTS4Rx9m3PZ"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
