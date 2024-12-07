@@ -11,13 +11,11 @@ This program manages a reward system for NFT minters where a portion of minting 
 25% burned
 25% returned to pool
 
-
 2. Monthly Distribution (70% Total Distribution)
 
 70% paid over 6 months
 15% burned
 15% returned to pool
-
 
 3. Quarterly Distribution (85% Total Distribution)
 
@@ -25,12 +23,11 @@ This program manages a reward system for NFT minters where a portion of minting 
 7.5% burned
 7.5% returned to pool
 
-
 4. Yearly Distribution (100% Total Distribution)
 
-100% paid in two installments over 18 months
-
-
+100% paid in Monthly installments over 18 months
+0% burned
+0% returned to the pool
 
 Prerequisites
 
