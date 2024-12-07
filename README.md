@@ -1,6 +1,8 @@
 NOTE: THIS IS JUST A ROUGH DRAFT 1.0 VERSION IT HAS NOT BEEN TESTED AND SHOULD NOT BE ASSUMED TO BE FUNCTIONAL AT THIS POINT
 
-NFT Reward Program
+MintRewards NFT Reward Program
+https://MintRewards.pw
+
 A Solana program for managing NFT minting rewards with configurable distribution schedules.
 Overview
 This program manages a reward system for NFT minters where a portion of minting fees are collected into reward pools. On the 15th of each month, one NFT minter from the previous month is randomly selected to receive rewards. Winners can choose from four different distribution schedules:
