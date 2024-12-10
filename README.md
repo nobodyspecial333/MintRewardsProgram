@@ -7,29 +7,33 @@ A Solana program for managing NFT minting rewards with configurable distribution
 Overview
 This program manages a reward system for NFT minters where a portion of minting fees are collected into reward pools. On the 15th of each month, one NFT minter from the previous month is randomly selected to receive rewards. Winners can choose from four different distribution schedules:
 
-1. Immediate Claim (50% Total Distribution)
+1. Immediate Claim
+Wallet Holder Receives: 50% of allocated reward instantly
 
-50% instant payment
-25% burned
-25% returned to pool
+50% instant payment to NFT holder wallet
+25% burned (increasing token scarcity)
+25% returned to Monthly Reward Pool which will be added to next monthly reward
 
-2. Monthly Distribution (70% Total Distribution)
+2. 6 Month Distribution
+Wallet Holder Receives 70% of their total allocated reward
 
-70% paid over 6 months
+Equal monthly payments over 6 months
 15% burned
-15% returned to pool
+15% returned to Monthly Reward Pool
 
-3. Quarterly Distribution (85% Total Distribution)
+3. 12 Month Distribution
+Wallet Holder Receives 85% of their total allocated reward
 
-85% paid over 12 months
+Equal quarterly payments over 12 months
 7.5% burned
-7.5% returned to pool
+7.5% returned to Monthly Reward Pool
 
-4. Yearly Distribution (100% Total Distribution)
+4. 18 Month Distribution
+Wallet Holder Receives 100% of their total allocated reward
 
-100% paid in Monthly installments over 18 months
+Two equal payments over 18 months
 0% burned
-0% returned to the pool
+0% returned to Monthly Reward Pool
 
 Prerequisites
 
